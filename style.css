@@ -45,12 +45,15 @@ color: gray;
 
 
 button:hover {
-background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
 cursor: pointer;
 color: white;
 
 }
 
+button:focus{
+  outline: 0;
+}
 
 .header {
   display: inline;
@@ -69,7 +72,7 @@ li {
 
 a {
     text-decoration: none;
-  color: #af0069;
+  color: #7918F2;
 }
 
 @media (max-width: 960px) {
